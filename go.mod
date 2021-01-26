@@ -12,5 +12,6 @@ require (
 	github.com/revel/config v1.0.0 // indirect
 	github.com/revel/modules v1.0.0
 	github.com/revel/revel v1.0.0
+	github.com/stretchr/testify v1.4.0 // indirect
 	golang.org/x/net v0.0.0-20210119194325-5f4716e94777 // indirect
 )
