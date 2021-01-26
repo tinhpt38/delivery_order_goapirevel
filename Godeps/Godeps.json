@@ -1,9 +1,0 @@
-{
-	"ImportPath": "github.com/tinhpt38/delivery_order_goapirevel",
-	"GoVersion": "go1.15",
-	"GodepVersion": "v80",
-	"Packages": [
-		"/..."
-	],
-	"Deps": []
-}

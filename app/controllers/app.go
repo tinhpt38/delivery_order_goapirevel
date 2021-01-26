@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"github.com/revel/revel"
-	"fmt"
 )
 
 type App struct {
@@ -10,6 +9,5 @@ type App struct {
 }
 
 func (c App) Index() revel.Result {
-	fmt.Println("hello go")
 	return c.Render()
 }
