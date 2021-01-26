@@ -12,7 +12,7 @@ import (
 
 var (
 	runMode    *string = flag.String("runMode", "", "Run mode.")
-	port       *int    = flag.Int("port", 0, "By default, read from app.conf")
+	port       *int    = flag.Int("port", 80, "By default, read from app.conf")
 	importPath *string = flag.String("importPath", "", "Go Import Path for the app.")
 	srcPath    *string = flag.String("srcPath", "", "Path to the source root.")
 
